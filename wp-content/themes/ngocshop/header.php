@@ -31,6 +31,8 @@
     <link rel='stylesheet' id='theme-responsive-css'  href='css/responsive.css?ver=1.0' type='text/css' media='all' />
     <link rel='stylesheet' id='theme-color-css'  href='css/color.css?ver=1.0' type='text/css' media='all' />
     <link rel='stylesheet' id='custome-css-css'  href='css/custome.css?ver=1.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='ngocshop-css'  href='css/ngocshop.css?ver=1.0' type='text/css' media='all' />
+
     <script type='text/javascript' src='js/jquery.js?ver=1.11.2'></script>
     <script type='text/javascript' src='js/jquery-migrate.min.js?ver=1.2.1'></script>
 
@@ -115,10 +117,8 @@
 
 </div>
 
-<section class="section-compact">
-<div class="container">
 
-<!-- end sidebar -->
+
 
 
  

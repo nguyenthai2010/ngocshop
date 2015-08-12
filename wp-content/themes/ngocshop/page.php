@@ -4,18 +4,15 @@ get_header();
 
     <section class="section-banner">
         <div class="container">
-
             <ul class="breadcrumb">
-                <li><a href="http://demos.megawpthemes.com/perfume">Home</a></li><li class="active">My Cart</li>
-                <li>
+                <li><a href="http://demos.megawpthemes.com/perfume">Home</a></li><li><a href="http://demos.megawpthemes.com/perfume/?taxonomy=pa_color&amp;term=black">Black</a></li><li class="active">Beauty Treats Darling Diamond Lip Gloss Set 6</li>			<li>
                     <div class="bar-form">
                         <form action="http://demos.megawpthemes.com/perfume" method="post">
-                            <input type="search" name="s" placeholder="Search ">
+                            <input type="search" placeholder="Search ">
                             <input type="submit" value="">
                         </form>
                     </div><!-- /bar-form -->
                 </li>
-
             </ul>
         </div>
     </section>

@@ -15,6 +15,12 @@ add_theme_support('post-thumbnails',array('post', 'page', 'download'));
 //Easy Digital Downloads
 include 'edd/checkout_cart.php';
 
+function pippin_extra_edd_currencies( $currencies ) {
+    $currencies['VND'] = 'Vietnam Dong';
+    return $currencies;
+}
+add_filter('edd_currencies', 'pippin_extra_edd_currencies');
+
 
 // Remove Open Sans that WP adds from frontend
 if (!function_exists('remove_wp_open_sans')) :

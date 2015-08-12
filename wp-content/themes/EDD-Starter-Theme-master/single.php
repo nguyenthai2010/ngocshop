@@ -9,15 +9,15 @@
 					<?php while (have_posts()) : the_post(); ?>
 			
 						<div class="entry">
-			
-							<h2 class="title"><?php the_title(); ?></h2>
-							
-							<small><?php the_time('F jS, Y') ?> <!-- by <?php the_author() ?> --></small>
-							
-							<?php the_content('Read the rest of this entry &raquo;'); ?>
-			
-							<p class="postinfo"><?php the_tags('Tags: ', ', ', '<br />'); ?> Posted in <?php the_category(', ') ?> | <?php edit_post_link('Edit', '', ' | '); ?>  <?php comments_popup_link('No Comments &#187;', '1 Comment &#187;', '% Comments &#187;'); ?></p>
-						</div>
+
+                            <h2 class="title"><?php the_title(); ?></h2>
+
+                            <small><?php the_time('F jS, Y') ?> <!-- by <?php the_author() ?> --></small>
+
+                            <?php the_content('Read the rest of this entry &raquo;'); ?>
+
+                            <p class="postinfo"><?php the_tags('Tags: ', ', ', '<br />'); ?> Posted in <?php the_category(', ') ?> | <?php edit_post_link('Edit', '', ' | '); ?>  <?php comments_popup_link('No Comments &#187;', '1 Comment &#187;', '% Comments &#187;'); ?></p>
+                        </div>
 			
 			
 					<?php endwhile; ?>

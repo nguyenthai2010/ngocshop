@@ -1,0 +1,290 @@
+# Copyright (C) 2015 Easy Digital Downloads - Recurring Payments
+# This file is distributed under the same license as the Easy Digital Downloads - Recurring Payments package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy Digital Downloads - Recurring Payments 2.2.13\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/edd-recurring\n"
+"POT-Creation-Date: 2015-03-29 08:31:10+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-04-10 11:25-0600\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: Pippin Williamson <pippin@pippinsplugins.com>\n"
+"Language-Team: \n"
+"Language: en\n"
+"X-Generator: Poedit 1.7.4\n"
+
+#: edd-recurring.php:275
+msgctxt "Cancelled payment status"
+msgid "Cancelled"
+msgstr ""
+
+#: edd-recurring.php:280
+msgid "Cancelled <span class=\"count\">(%s)</span>"
+msgid_plural "Cancelled <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: edd-recurring.php:283
+msgctxt "Subscription payment status"
+msgid "Subscription"
+msgstr ""
+
+#: edd-recurring.php:288
+msgid "Subscription <span class=\"count\">(%s)</span>"
+msgid_plural "Subscription <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: edd-recurring.php:340
+msgid "Subscription"
+msgstr ""
+
+#: edd-recurring.php:341 edd-recurring.php:371
+msgid "Cancelled"
+msgstr ""
+
+#: edd-recurring.php:363 includes/admin/reports.php:12
+msgid "Subscription Payment"
+msgstr ""
+
+#: edd-recurring.php:408 includes/admin/metabox.php:259
+msgid "Signup Fee"
+msgstr ""
+
+#: edd-recurring.php:454
+msgid "Sorry, you cannot purchase items in the same checkout session as subscriptions."
+msgstr ""
+
+#: edd-recurring.php:527
+msgid "You must have an active subscription to %s in order to download this file."
+msgstr ""
+
+#: edd-recurring.php:530
+msgid "Access Denied"
+msgstr ""
+
+#: edd-recurring.php:591
+msgctxt "Billing period"
+msgid "Daily"
+msgstr ""
+
+#: edd-recurring.php:592
+msgctxt "Billing period"
+msgid "Weekly"
+msgstr ""
+
+#: edd-recurring.php:593
+msgctxt "Billing period"
+msgid "Monthly"
+msgstr ""
+
+#: edd-recurring.php:594
+msgctxt "Billing period"
+msgid "Yearly"
+msgstr ""
+
+#: includes/admin/class-subscriber-reports-table.php:62 includes/edd-recurring-customer.php:302
+msgid "Subscriber"
+msgstr ""
+
+#: includes/admin/class-subscriber-reports-table.php:63 includes/admin/reports.php:104
+#: includes/admin/reports.php:189
+msgid "Subscribers"
+msgstr ""
+
+#: includes/admin/class-subscriber-reports-table.php:97 includes/admin/reports.php:267
+msgid "Edit this Subscriber"
+msgstr ""
+
+#: includes/admin/class-subscriber-reports-table.php:97
+#: includes/admin/class-subscriber-reports-table.php:116
+msgid "Edit"
+msgstr ""
+
+#: includes/admin/class-subscriber-reports-table.php:111
+msgid "ID"
+msgstr ""
+
+#: includes/admin/class-subscriber-reports-table.php:112
+msgid "Username"
+msgstr ""
+
+#: includes/admin/class-subscriber-reports-table.php:113 includes/admin/reports.php:157
+#: includes/edd-recurring-customer.php:303
+msgid "Status"
+msgstr ""
+
+#: includes/admin/class-subscriber-reports-table.php:114 includes/edd-recurring-customer.php:304
+msgid "Expiration"
+msgstr ""
+
+#: includes/admin/class-subscriber-reports-table.php:115 includes/admin/reports.php:169
+msgid "Recurring ID"
+msgstr ""
+
+#: includes/admin/class-subscriber-reports-table.php:209
+#: includes/admin/class-subscriber-reports-table.php:211
+msgid "none"
+msgstr ""
+
+#: includes/admin/metabox.php:23 includes/admin/metabox.php:189
+msgid "Recurring"
+msgstr ""
+
+#: includes/admin/metabox.php:24 includes/admin/metabox.php:212
+msgid "Period"
+msgstr ""
+
+#: includes/admin/metabox.php:25
+msgctxt "Referring to billing period"
+msgid "Times"
+msgstr ""
+
+#: includes/admin/metabox.php:26
+msgctxt "Referring to subscription signup fee"
+msgid "Signup Fee"
+msgstr ""
+
+#: includes/admin/metabox.php:47 includes/admin/metabox.php:191 includes/edd-recurring-customer.php:325
+msgid "No"
+msgstr ""
+
+#: includes/admin/metabox.php:48 includes/admin/metabox.php:192 includes/edd-recurring-customer.php:325
+msgid "Yes"
+msgstr ""
+
+#: includes/admin/metabox.php:237
+msgid "Times"
+msgstr ""
+
+#: includes/admin/metabox.php:368
+msgctxt "Referring to billing period"
+msgid "time"
+msgstr ""
+
+#: includes/admin/metabox.php:369
+msgctxt "Referring to billing period"
+msgid "times"
+msgstr ""
+
+#: includes/admin/reports.php:39 includes/admin/reports.php:83
+msgid "Subscription Payments"
+msgstr ""
+
+#: includes/admin/reports.php:86
+msgid "Parent Payment: <a href=\"%s\">%s</a>"
+msgstr ""
+
+#: includes/admin/reports.php:140
+msgid "Edit Subscriber: %d"
+msgstr ""
+
+#: includes/admin/reports.php:148
+msgid "Expiration date"
+msgstr ""
+
+#: includes/admin/reports.php:152
+msgid "Enter the expiration date for subscriber."
+msgstr ""
+
+#: includes/admin/reports.php:161
+msgid "Active"
+msgstr ""
+
+#: includes/admin/reports.php:162
+msgid "Expired"
+msgstr ""
+
+#: includes/admin/reports.php:164
+msgid "The status of this subscriber's subscription.."
+msgstr ""
+
+#: includes/admin/reports.php:173
+msgid ""
+"Enter the recurring ID for the subscriber. This is the unique ID that identifies this user in the payment "
+"processor. Leave blank if unknown or unavailable."
+msgstr ""
+
+#: includes/admin/reports.php:183
+msgid "Update Subscriber"
+msgstr ""
+
+#: includes/admin/reports.php:224
+msgid "Cheating, eh?"
+msgstr ""
+
+#: includes/admin/reports.php:254
+msgid "Subscriber updated successfully"
+msgstr ""
+
+#: includes/admin/reports.php:267
+msgid "Edit Subscription"
+msgstr ""
+
+#: includes/admin/settings.php:15
+msgid "Recurring Settings"
+msgstr ""
+
+#: includes/admin/settings.php:16
+msgid "Configure the Recurring Settings"
+msgstr ""
+
+#: includes/admin/settings.php:21
+msgid "Limit File Downloads"
+msgstr ""
+
+#: includes/admin/settings.php:22
+msgid ""
+"Check this if you'd like to require users have an active subscription in order to download files "
+"associated with a recurring product."
+msgstr ""
+
+#: includes/edd-recurring-customer.php:58
+msgid "EDD Subscriber"
+msgstr ""
+
+#: includes/edd-recurring-customer.php:340 includes/edd-recurring-customer.php:356
+msgid "N/A"
+msgstr ""
+
+#: includes/edd-recurring-paypal-ipn.php:23
+msgid "PayPal Subscription ID: %s"
+msgstr ""
+
+#: includes/edd-recurring-paypal-ipn.php:74
+msgid "IPN Error"
+msgstr ""
+
+#: includes/edd-recurring-paypal-ipn.php:74
+msgid "Invalid currency in IPN response. IPN data: "
+msgstr ""
+
+#: includes/plugin-content-restriction.php:61
+msgid "Only customers with an active recurring subscription will be able to view the content."
+msgstr ""
+
+#: includes/plugin-content-restriction.php:63
+msgid "Active Subscribers Only?"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Easy Digital Downloads - Recurring Payments"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://easydigitaldownloads.com/extension/edd-recurring"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Adds support for recurring payments to EDD"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Pippin Williamson"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://pippinsplugins.com"
+msgstr ""
