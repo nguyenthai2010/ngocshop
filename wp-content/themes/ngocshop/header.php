@@ -74,16 +74,7 @@
 
             </li>
             <li>
-                <span class="cart-btn dropBox-btn"><i class="flaticon-shopping191"></i><span class="badge">0</span></span>
-                <div class="dropBox">
-                    <div class="box-section">
-                        <div class="box-section">
-                            <h6>Your Cart is empty</h6>
-                            <a href="#" class="btn btn-dark btn-block dismiss-button">Continue Shopping</a>
-                            <p>Enjoy complimentary shipping on all orders over $75 and also complimentary samples and returns with every order.</p>
-                        </div>
-                    </div><!-- /cart-info-box -->
-                </div><!-- /dropBox -->
+                <a href="<?php echo get_permalink( get_page_by_path( 'giohang' ) );?>"><span class="cart-btn dropBox-btn"><i class="flaticon-shopping191"></i><span class="badge"><?php echo edd_get_cart_quantity(); ?></span></span></a>
             </li>
 
             <li class="toggle-menu">

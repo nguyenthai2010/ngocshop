@@ -22,6 +22,8 @@ function pippin_extra_edd_currencies( $currencies ) {
 add_filter('edd_currencies', 'pippin_extra_edd_currencies');
 
 
+
+
 // Remove Open Sans that WP adds from frontend
 if (!function_exists('remove_wp_open_sans')) :
     function remove_wp_open_sans() {

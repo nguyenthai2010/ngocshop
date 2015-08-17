@@ -6,23 +6,21 @@
         <div class="row">
             <div class="col-sm-3"><div id="sh_question-2"  class="widget widget-info widget_sh_question">
                     <header class="widget-heading">
-                        <h4><i class="flaticon-help"></i>Questions?</h4>
+                        <h4><i class="flaticon-help"></i>Yêu cầu hỗ trợ ?</h4>
                     </header>
 
-                    <p>We are here for you.</p>
 
                     <nav>
                         <ul>
                             <li><i class="flaticon-phone72"></i>(012) 345-6789</li>
-                            <li><a href="mailto:http://info@perfumesupport.com"><i class="flaticon-email15"></i>info@perfumesupport.com</a></li>
-                            <li><i class="flaticon-google125"></i><a href="#">Would you like to speak live?</a></li>
+                            <li><a href="mailto:http://info@perfumesupport.com"><i class="flaticon-email15"></i>ngocshop@gmail.com</a></li>
+                            <li><i class="flaticon-google125"></i><a href="#">Gởi tin nhắn</a></li>
                         </ul>
                     </nav>
                 </div></div><div class="col-sm-3"><div id="sh_recent_products-2"  class="widget widget-info widget_sh_recent_products">
                     <header class="widget-heading">
                         <h4><i class="flaticon-shield90"></i>Security</h4>
                     </header>
-                    <p>Art trade is a matter of trust.</p>
 
 
 
@@ -36,7 +34,6 @@
                     <header class="widget-heading">
                         <h4><i class="flaticon-shipping"></i>Shipping</h4>
                     </header>
-                    <p>Art trade is a matter of trust.</p>
 
 
 

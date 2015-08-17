@@ -10,3 +10,32 @@
 .pattern-1, .section-banner {
   background-image: url(../images/patter-1.jpg);
 }
+
+.shoppingcart {
+  ul.edd-cart {
+    list-style: none;
+    text-align: left;
+    width: 100%;
+    border: none;
+    margin: 0 0 21px;
+    table-layout: auto;
+
+    li {
+
+    }
+  }
+
+}
+
+.user-controls > li > a > span, .user-controls > li > button {
+  padding: 8px 28px;
+  display: block;
+  font-size: 26px;
+  cursor: pointer;
+  position: relative;
+  border: 0px;
+}
+
+.thumbnail-blog > figure, .thumbnail-product > figure {
+  /*height: 250px;*/
+}

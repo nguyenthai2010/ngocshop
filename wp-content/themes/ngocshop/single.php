@@ -1,5 +1,6 @@
 <?php
 get_header();
+
 ?>
 
 <section class="section-compact">
@@ -19,7 +20,7 @@ get_header();
 
                                         <div class="images">
 
-                                            <a href="http://demos.megawpthemes.com/perfume/files/2015/06/img-32.jpg" itemprop="image" class="woocommerce-main-image zoom" title="" data-rel="prettyPhoto[product-gallery]"><img width="600" height="378" src="http://demos.megawpthemes.com/perfume/files/2015/06/img-32-600x378.jpg" class="attachment-shop_single wp-post-image" alt="img-32" title="img-32"></a>
+                                            <a href="<?php echo wp_get_attachment_image_src( get_post_thumbnail_id(), 'full' )[0]; ?>" itemprop="image" class="woocommerce-main-image zoom" title="" data-rel="prettyPhoto[product-gallery]"><?php the_post_thumbnail('product-image'); ?></a>
 
 
                                         </div>
@@ -51,18 +52,27 @@ get_header();
                         </div><!-- /featured-box -->
 
                     </div>
+                    <?php
+                    $noidung = get_field('noi_dung', get_the_ID());
 
-                    <div class="product-description" id="description">
-                        <div class="rw">
+                    if(trim ($noidung) != '') {
+                    ?>
+                        <div class="product-description" id="description">
+                            <div class="rw">
 
-                            <h4>Thông tin chi tiết</h4>
+                                <h4>Thông tin chi tiết</h4>
 
-                            <div id="lipsum">
-                                <?php echo get_field('noi_dung', get_the_ID()); ?>
+                                <div id="lipsum">
+                                    <?php echo $noidung; ?>
 
+
+                                </div>
                             </div>
                         </div>
-                    </div>
+
+                    <?php
+                    }
+                    ?>
 
                 <?php endwhile; ?>
 
@@ -74,53 +84,88 @@ get_header();
 
                     <h4>Sản phẩm liên quan</h4>
                 </header>
+                <!--contenct-->
 
-                <div class="carousel-multiple owl-carousel owl-theme" style="opacity: 1; display: block;">
+                <?php
+                $cat_terms = get_the_terms( get_the_ID(), 'download_category');
+
+                $arr_term_slug = array();
+
+                foreach ($cat_terms as $value) {
+                    //print_r($value->slug);
+                    array_push($arr_term_slug, $value->slug);
+                }
 
 
+                $product_args = array(
+                    'post_type' => 'download',
+                    'tax_query' => array(
+                        array(
+                            'taxonomy' => 'download_category',
+                            'field'    => 'slug',
+                            'terms'    => $arr_term_slug,
+                        )
+                    )
+                );
+                $products = new WP_Query($product_args);
+                ?>
+                <?php if ($products->have_posts()) : $i = 1; ?>
+                    <ul class="filter-list">
 
-                    <div class="owl-wrapper-outer"><div class="owl-wrapper" style="width: 1140px; left: 0px; display: block; transition: all 1000ms ease; transform: translate3d(0px, 0px, 0px);"><div class="owl-item" style="width: 285px;"><div class="item">
+                        <?php while ($products->have_posts()) : $products->the_post(); ?>
+                            <li class="mix  ">
+                                <div >
+
+
                                     <div class="thumbnail thumbnail-product">
                                         <figure class="image-zoom">
-                                            <img width="300" height="113" src="http://demos.megawpthemes.com/perfume/files/2015/06/img-351-300x113.jpg" class="attachment-medium wp-post-image" alt="img-35">						</figure>
-                                        <div class="caption text-center">
-                                            <h5>
-                                                <a href="http://demos.megawpthemes.com/perfume/product/new-perfumes-from-top-brands-of-world/" title="New Perfumes from Top Brands of the world">
-                                                    New Perfumes from Top Brands of the world								</a>
-                                            </h5>
-                                            <div class="rating-star">
+                                            <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('product-image'); ?></a></figure>
+                                        <div class="caption">
+                                            <div class="text-wrap">
+                                                <h5><a href="<?php the_permalink(); ?>"><?php the_title(); ?>	</a></h5>
+                                                <p class="prod-price text-primary">
+                                            <span class="price">
+                                                <?php if(function_exists('edd_price')) { ?>
+                                                    <?php
+                                                    if(edd_has_variable_prices(get_the_ID())) {
+                                                        // if the download has variable prices, show the first one as a starting price
+                                                        echo 'Starting at: '; edd_price(get_the_ID());
+                                                    } else {
+                                                        edd_price(get_the_ID());
+                                                    }
+                                                    ?>
+                                                <?php } ?>
 
-                                            </div><!-- /rating-star -->
-                                            <p class="prod-price text-primary">
-                                                <span class="price"><del><span class="amount">£25.00</span></del> <ins><span class="amount">£24.00</span></ins></span>
-                                            </p>
+                                            </span>
+                                                </p>
+                                                <div class="filter-list-disp">
+                                                    <a href="<?php the_permalink(); ?>" class="btn btn-default view-detail">Xem chi tiết</a>
+                                                </div>
+                                            </div>
+
+
                                         </div>
-                                    </div><!-- /thumbail -->
-                                </div></div><div class="owl-item" style="width: 285px;"><div class="item">
-                                    <div class="thumbnail thumbnail-product">
-                                        <figure class="image-zoom">
-                                            <img width="300" height="113" src="http://demos.megawpthemes.com/perfume/files/2015/06/img-361-300x113.jpg" class="attachment-medium wp-post-image" alt="img-36">						</figure>
-                                        <div class="caption text-center">
-                                            <h5>
-                                                <a href="http://demos.megawpthemes.com/perfume/product/2015-collection-of-perfumes-fro-women/" title="2015 collection of Perfumes for women">
-                                                    2015 collection of Perfumes for women								</a>
-                                            </h5>
-                                            <div class="rating-star">
 
-                                            </div><!-- /rating-star -->
-                                            <p class="prod-price text-primary">
-                                                <span class="price"><del><span class="amount">£30.00</span></del> <ins><span class="amount">£29.00</span></ins></span>
-                                            </p>
-                                        </div>
-                                    </div><!-- /thumbail -->
-                                </div></div></div></div>
+                                    </div>
+                                </div>
+                            </li>
 
+                            <?php $i+=1; ?>
+                        <?php endwhile; ?>
+                    </ul>
+                    <div class="pagination">
+                        <?php
+                        $big = 999999999; // need an unlikely intege
+                        echo paginate_links( array(
+                            'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
+                            'format' => '?paged=%#%',
+                            'current' => max( 1, $current_page ),
+                            'total' => $products->max_num_pages
+                        ) );
+                        ?>
+                    </div>
 
-
-
-
-
-                </div>
+                <?php endif; ?>
             </div><!-- /other-products -->
 
 
