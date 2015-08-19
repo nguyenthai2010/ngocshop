@@ -19,14 +19,14 @@ add_action('edd_checks_cc_form', 'pippin_edd_custom_checkout_fields');
 
 // check for errors with out custom fields
 function pippin_edd_validate_custom_fields($valid_data, $data) {
-    if( empty( $data['edd_phone'] ) ) {
+   /* if( empty( $data['edd_phone'] ) ) {
         // check for a phone number
         edd_set_error( 'invalid_phone', __('Please provide your phone number.', 'pippin_edd') );
     }
     if( empty( $data['edd_company'] ) ) {
         // check for a phone number
         edd_set_error( 'invalid_company', __('Please provide a company name.', 'pippin_edd') );
-    }
+    }*/
 }
 add_action('edd_checkout_error_checks', 'pippin_edd_validate_custom_fields', 10, 2);
 

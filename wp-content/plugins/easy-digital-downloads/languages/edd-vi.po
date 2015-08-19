@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2015-08-19 17:22+0700\n"
+"PO-Revision-Date: 2015-08-19 17:54+0700\n"
 "Language-Team: WP-Translations <wpt@wp-translations.org>\n"
 "X-Generator: Poedit 1.7\n"
 "X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
@@ -1402,7 +1402,7 @@ msgstr ""
 #: includes/checkout/template.php:829 includes/scripts.php:58
 #: includes/shortcodes.php:36 includes/template-functions.php:67
 msgid "Purchase"
-msgstr ""
+msgstr "Mua"
 
 #: includes/admin/downloads/metabox.php:871
 msgid "Purchase Shortcode:"
@@ -1427,7 +1427,7 @@ msgstr ""
 #: includes/admin/downloads/metabox.php:934
 #: includes/admin/settings/register-settings.php:770 includes/admin/thickbox.php:100
 msgid "Add to Cart"
-msgstr ""
+msgstr "Thêm vào giỏ Hàng"
 
 #: includes/admin/downloads/metabox.php:935
 #: includes/admin/settings/register-settings.php:777 includes/shortcodes.php:46
@@ -1816,7 +1816,7 @@ msgstr ""
 
 #: includes/admin/payments/view-order-details.php:243
 msgid "View all purchases of customer"
-msgstr ""
+msgstr "Xem tất cả thanh toán"
 
 #: includes/admin/payments/view-order-details.php:323
 #: templates/widget-cart-checkout.php:5 templates/widget-cart-empty.php:6
@@ -1842,7 +1842,7 @@ msgstr "Số Lượng"
 
 #: includes/admin/payments/view-order-details.php:363
 msgid "Item Price: "
-msgstr "Giá sản phảm"
+msgstr "Giá sản phảm "
 
 #: includes/admin/payments/view-order-details.php:371
 msgid "Add %s to Payment"
@@ -1995,18 +1995,18 @@ msgstr ""
 #: includes/admin/reporting/export/class-batch-export-payments.php:43
 #: includes/checkout/template.php:191 templates/shortcode-profile-editor.php:31
 msgid "First Name"
-msgstr ""
+msgstr "Họ"
 
 #: includes/admin/reporting/class-export-customers.php:67
 #: includes/admin/reporting/class-export-payments.php:65
 #: includes/admin/reporting/export/class-batch-export-payments.php:44
 #: includes/checkout/template.php:201 templates/shortcode-profile-editor.php:34
 msgid "Last Name"
-msgstr ""
+msgstr "Tên"
 
 #: includes/admin/reporting/class-export-customers.php:69
 msgid "Date Purchased"
-msgstr ""
+msgstr "Ngày mua"
 
 #: includes/admin/reporting/class-export-customers.php:82
 msgid "Total Purchases"
@@ -2206,7 +2206,7 @@ msgstr ""
 
 #: includes/admin/reporting/export/class-batch-export-customers.php:45
 msgid "Number of Purchases"
-msgstr ""
+msgstr "số lương Mua"
 
 #: includes/admin/reporting/export/class-batch-export-customers.php:46
 msgid "Customer Value"
@@ -2695,7 +2695,7 @@ msgstr ""
 
 #: includes/admin/settings/register-settings.php:222
 msgid "Checkout Page"
-msgstr ""
+msgstr "Trang thanh toán"
 
 #: includes/admin/settings/register-settings.php:223
 msgid ""
@@ -2730,7 +2730,7 @@ msgstr ""
 
 #: includes/admin/settings/register-settings.php:249
 msgid "Purchase History Page"
-msgstr ""
+msgstr "LỊCH SỬ MUA HÀNG"
 
 #: includes/admin/settings/register-settings.php:250
 msgid ""
@@ -4215,48 +4215,50 @@ msgstr ""
 
 #: includes/cart/template.php:252
 msgid "You have successfully added %s to your shopping cart."
-msgstr ""
+msgstr "Bạn đã thêm thành công %s vào giỏ mua hàng của bạn."
 
 #: includes/cart/template.php:253
 msgid "Checkout."
-msgstr ""
+msgstr "Thanh toán"
 
 #: includes/checkout/template.php:176
 msgid "Personal Info"
-msgstr ""
+msgstr "Thông tin cá nhân"
 
 #: includes/checkout/template.php:180 templates/shortcode-profile-editor.php:56
 #: templates/shortcode-register.php:24
 msgid "Email Address"
-msgstr ""
+msgstr "Địa chỉ Email"
 
 #: includes/checkout/template.php:185
 msgid "We will send the purchase receipt to this address."
-msgstr ""
+msgstr "Chúng tôi sẽ gửi hoá đơn mua hàng đến địa chỉ này."
 
 #: includes/checkout/template.php:186
 msgid "Email address"
-msgstr ""
+msgstr "Địa chỉ Email"
 
 #: includes/checkout/template.php:196
 msgid "We will use this to personalize your account experience."
 msgstr ""
+"Chúng tôi sẽ sử dung dữ liệu này để cá nhân hoá những kinh nghiệm tài khoản của bạn."
 
 #: includes/checkout/template.php:197
 msgid "First name"
-msgstr ""
+msgstr "Họ"
 
 #: includes/checkout/template.php:206
 msgid "We will use this as well to personalize your account experience."
 msgstr ""
+"Chúng tôi sẽ sử dung dữ liệu này để cá nhân hoá những kinh nghiệm tài khoản của bạn."
 
 #: includes/checkout/template.php:207
 msgid "Last name"
-msgstr ""
+msgstr "Tên"
 
 #: includes/checkout/template.php:229
 msgid "Credit Card Info"
-msgstr ""
+msgstr "Thông tin thẻ tín dụng"
 
 #: includes/checkout/template.php:233
 msgid "This is a secure SSL encrypted payment."
@@ -4264,7 +4266,7 @@ msgstr ""
 
 #: includes/checkout/template.php:238
 msgid "Card Number"
-msgstr ""
+msgstr "Số thẻ"
 
 #: includes/checkout/template.php:242
 msgid "The (typically) 16 digits on the front of your credit card."
@@ -4272,7 +4274,7 @@ msgstr ""
 
 #: includes/checkout/template.php:243
 msgid "Card number"
-msgstr ""
+msgstr "Số thẻ"
 
 #: includes/checkout/template.php:247
 msgid "CVC"
@@ -4280,27 +4282,27 @@ msgstr ""
 
 #: includes/checkout/template.php:250
 msgid "The 3 digit (back) or 4 digit (front) value on your card."
-msgstr ""
+msgstr "3 chữ số (sau) hoặc 4 chữ số (trước) giá trị trên thẻ của bạn."
 
 #: includes/checkout/template.php:251
 msgid "Security code"
-msgstr ""
+msgstr "Mã bảo mật"
 
 #: includes/checkout/template.php:255
 msgid "Name on the Card"
-msgstr ""
+msgstr "Tên trên thẻ"
 
 #: includes/checkout/template.php:258
 msgid "The name printed on the front of your credit card."
-msgstr ""
+msgstr "Tên in trên mặt trước của thẻ tín dụng của bạn."
 
 #: includes/checkout/template.php:259
 msgid "Card name"
-msgstr ""
+msgstr "Tên thẻ"
 
 #: includes/checkout/template.php:264
 msgid "Expiration (MM/YY)"
-msgstr ""
+msgstr "Hết hạn (MM / YY)"
 
 #: includes/checkout/template.php:267
 msgid "The date your credit card expires, typically on the front of the card."
@@ -4430,7 +4432,7 @@ msgstr ""
 
 #: includes/checkout/template.php:573
 msgid "Select Payment Method"
-msgstr ""
+msgstr "Chọn phương thức thanh toán"
 
 #: includes/checkout/template.php:702
 msgid "Have a discount code?"
@@ -4643,19 +4645,19 @@ msgstr ""
 
 #: includes/class-edd-cli.php:319
 msgid "Display Name: %s"
-msgstr ""
+msgstr "Tên Hiển thị: %s"
 
 #: includes/class-edd-cli.php:322
 msgid "First Name: %s"
-msgstr ""
+msgstr "Tên: %s"
 
 #: includes/class-edd-cli.php:326
 msgid "Last Name: %s"
-msgstr ""
+msgstr "Họ: %s"
 
 #: includes/class-edd-cli.php:329 includes/class-edd-cli.php:366
 msgid "Email: %s"
-msgstr ""
+msgstr "Email: %s"
 
 #: includes/class-edd-cli.php:332
 msgid "Purchases: %s"
@@ -5580,7 +5582,7 @@ msgstr ""
 #: includes/install.php:60 includes/template-functions.php:179
 #: templates/widget-cart-checkout.php:6 templates/widget-cart-empty.php:7
 msgid "Checkout"
-msgstr ""
+msgstr "Thanh toán"
 
 #: includes/install.php:72
 msgid "Purchase Confirmation"
@@ -6047,11 +6049,11 @@ msgstr ""
 
 #: includes/process-purchase.php:332
 msgid "Please enter a valid email address"
-msgstr ""
+msgstr "Vui lòng nhập một email hợp lệ"
 
 #: includes/process-purchase.php:336
 msgid "Please enter your first name"
-msgstr ""
+msgstr "Vui lòng nhập tên của bạn"
 
 #: includes/process-purchase.php:346
 msgid "Please enter your zip / postal code"
@@ -6083,11 +6085,11 @@ msgstr ""
 
 #: includes/process-purchase.php:482
 msgid "Email already used"
-msgstr ""
+msgstr "Email đã được sử dụng"
 
 #: includes/process-purchase.php:489 includes/process-purchase.php:616
 msgid "Enter an email"
-msgstr ""
+msgstr "Nhập email"
 
 #: includes/process-purchase.php:497
 msgid "Passwords don't match"
@@ -6267,11 +6269,11 @@ msgstr ""
 
 #: includes/template-functions.php:186
 msgid "Added to cart"
-msgstr ""
+msgstr "Đã thêm sản phẩm vào giỏ hàng"
 
 #: includes/template-functions.php:187
 msgid "Go to Checkout"
-msgstr ""
+msgstr "Tới Thanh toán"
 
 #: includes/template-functions.php:196
 msgid "Includes %1$s&#37; tax"
