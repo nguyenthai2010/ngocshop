@@ -5,20 +5,9 @@ get_header();
 $category = get_queried_object();
 //print_r($category);
 ?>
-<section class="section-banner">
-    <div class="container">
-        <ul class="breadcrumb">
-            <li><a href="http://demos.megawpthemes.com/perfume">Home</a></li><li><a href="http://demos.megawpthemes.com/perfume/?taxonomy=pa_color&amp;term=black">Black</a></li><li class="active">Beauty Treats Darling Diamond Lip Gloss Set 6</li>			<li>
-                <div class="bar-form">
-                    <form action="http://demos.megawpthemes.com/perfume" method="post">
-                        <input type="search" placeholder="Search ">
-                        <input type="submit" value="">
-                    </form>
-                </div><!-- /bar-form -->
-            </li>
-        </ul>
-    </div>
-</section>
+<?php
+get_template_part('tpl','header_search');
+?>
 <section class="section-compact">
     <div class="container">
         <div class="row">

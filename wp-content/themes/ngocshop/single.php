@@ -2,7 +2,9 @@
 get_header();
 
 ?>
-
+<?php
+get_template_part('tpl','header_search');
+?>
 <section class="section-compact">
     <div class="container">
 
