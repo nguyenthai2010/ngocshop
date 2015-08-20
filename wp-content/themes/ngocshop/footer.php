@@ -9,12 +9,17 @@
                         <h4><i class="flaticon-help"></i>Yêu cầu hỗ trợ ?</h4>
                     </header>
 
+                    <?php
+                    $lienhe_dienthoai = get_field('lienhe_dienthoai', 'option');
+                    $lienhe_email = get_field('lienhe_email', 'option');
+                    $lienhe_facebook = get_field('lienhe_facebook', 'option');
 
+                    ?>
                     <nav>
                         <ul>
-                            <li><i class="flaticon-phone72"></i>(012) 345-6789</li>
-                            <li><a href="mailto:http://info@perfumesupport.com"><i class="flaticon-email15"></i>ngocshop@gmail.com</a></li>
-                            <li><i class="flaticon-google125"></i><a href="#">Gởi tin nhắn</a></li>
+                            <li><i class="flaticon-phone72"></i><?=$lienhe_dienthoai?></li>
+                            <li><a href="mailto:<?=$lienhe_email?>"><i class="flaticon-email15"></i><?=$lienhe_email?></a></li>
+                            <li><a href="<?php echo get_permalink( get_page_by_path( 'lien-he' ) );?>"><i class="flaticon-google125"></i>Gởi tin nhắn</a></li>
                         </ul>
                     </nav>
                 </div></div><div class="col-sm-3"><div id="sh_recent_products-2"  class="widget widget-info widget_sh_recent_products">
@@ -45,10 +50,16 @@
 
                 </div></div><div class="col-sm-3"><div id="sh_payment-2"  class="widget widget-info widget_sh_payment">
                     <header class="widget-heading">
-                        <h4><i class="flaticon-creditcard21"></i>Payments</h4>
+                        <h4><i class="flaticon-creditcard21"></i>Tài khoản thanh toán</h4>
                     </header>
                     <ul class="list-cards">
-                        <li><a href="#"><img src="http://demos.megawpthemes.com/perfume/wp-content/themes/perfume/images/logo-visa.png" alt=""></a></li>            <li><a href="#"><img src="http://demos.megawpthemes.com/perfume/wp-content/themes/perfume/images/logo-americanexpress.png" alt=""></a></li>            <li><a href="#"><img src="http://demos.megawpthemes.com/perfume/wp-content/themes/perfume/images/logo-mastercard.png" alt=""></a></li>            <li><a href="#"><img src="http://demos.megawpthemes.com/perfume/wp-content/themes/perfume/images/logo-amazon.png" alt=""></a></li>            <li><a href="#"><img src="http://demos.megawpthemes.com/perfume/wp-content/themes/perfume/images/logo-paypal.png" alt=""></a></li>    	</ul>
+                        <li><a href="#"><img src="images/nganhang/vietcombank.jpg" height="30" alt=""></a></li>
+                        <li><a href="#"><img src="images/nganhang/bidv.jpg" height="30" alt=""></a></li>
+                        <li><a href="#"><img src="images/nganhang/eximbank.jpg" height="30" alt=""></a></li>
+                        <li><a href="#"><img src="images/nganhang/sacombank.jpg" height="30" alt=""></a></li>
+                        <li><a href="#"><img src="images/nganhang/techcombank.jpg" height="30" alt=""></a></li>
+                        <li><a href="#"><img src="images/nganhang/vietinbank.jpg" height="30" alt=""></a></li>
+                    </ul>
                 </div></div>			</div>
     </div>
 </section>
