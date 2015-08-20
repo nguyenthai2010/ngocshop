@@ -25,11 +25,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/ngocshop/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.967742" vertical-offset="0" max-vertical-offset="1012">
+              <caret line="7" column="21" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/ngocshop/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9497143" vertical-offset="951" max-vertical-offset="1980">
-              <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.33251834" vertical-offset="1356" max-vertical-offset="2288">
+              <caret line="74" column="30" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/ngocshop/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.741936" vertical-offset="1809" max-vertical-offset="2684">
+              <caret line="103" column="14" selection-start-line="91" selection-start-column="12" selection-end-line="103" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -60,7 +80,6 @@
         <option value="$PROJECT_DIR$/wp-content/themes/ngocshop/page-gio-hang.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/ngocshop/edd/widget-cart-item.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/easy-digital-downloads/templates/widget-cart-item.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/ngocshop/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/ngocshop/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/ngocshop/css/responsive.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/ngocshop/sass/ngocshop.scss" />
@@ -72,8 +91,9 @@
         <option value="$PROJECT_DIR$/wp-content/plugins/easy-digital-downloads/includes/checkout/template.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/ngocshop/edd/checkout_cart.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/ngocshop/page-lien-he.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/ngocshop/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wp-live-chat-support-pro/wp-live-chat-support-pro.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/ngocshop/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/ngocshop/footer.php" />
       </list>
     </option>
   </component>
@@ -223,28 +243,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TEMP - Ngocshop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-live-chat-support-pro" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -670,14 +668,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/ngocshop/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28153154" vertical-offset="80" max-vertical-offset="968">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-includes/link-template.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.33371428" vertical-offset="60220" max-vertical-offset="81180">
@@ -693,14 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7542857" vertical-offset="2772" max-vertical-offset="4136">
           <caret line="156" column="108" selection-start-line="156" selection-start-column="108" selection-end-line="156" selection-end-column="108" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/ngocshop/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.4838705" vertical-offset="1254" max-vertical-offset="2684">
-          <caret line="76" column="85" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="85" />
           <folding />
         </state>
       </provider>
@@ -726,50 +708,65 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="47696">
           <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
           <folding>
-            <element signature="e#6#368#0#PHP" expanded="true" />
-            <element signature="e#32551#32677#0#HTML" expanded="true" />
-            <element signature="e#33097#33118#0#HTML" expanded="true" />
-            <element signature="e#33299#33320#0#HTML" expanded="true" />
-            <element signature="e#33497#33520#0#HTML" expanded="true" />
-            <element signature="e#33660#33681#0#HTML" expanded="true" />
-            <element signature="e#37409#37535#0#HTML" expanded="true" />
-            <element signature="e#38981#39107#0#HTML" expanded="true" />
-            <element signature="e#39204#39225#0#HTML" expanded="true" />
-            <element signature="e#39400#39421#0#HTML" expanded="true" />
-            <element signature="e#39471#39492#0#HTML" expanded="true" />
-            <element signature="e#39741#39831#0#HTML" expanded="true" />
-            <element signature="e#40324#40366#0#HTML" expanded="true" />
-            <element signature="e#40770#40791#0#HTML" expanded="true" />
-            <element signature="e#51372#51396#0#HTML" expanded="true" />
-            <element signature="e#51627#51677#0#HTML" expanded="true" />
-            <marker date="1440062915960" expanded="true" signature="-1:-1" placeholder="ALTER TABLE ..." />
-            <marker date="1440062915960" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..." />
-            <marker date="1440062915960" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1440062915960" expanded="true" signature="-1:-1" placeholder="ALTER TABLE ..." />
-            <marker date="1440062915960" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._wplc_tblname_chats&#10;        WHERE..." />
-            <marker date="1440062915960" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1440062915960" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1440062915960" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1440062915960" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1440062915960" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1440062915960" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1440062915960" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1440062915960" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1440062915960" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1440062915960" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1440062915960" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1440062915960" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._wplc_tblname_chats&#10;        WHERE..." />
-            <marker date="1440062915960" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1440062915960" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1440062915960" expanded="true" signature="-1:-1" placeholder="..." />
+            <element signature="e#30893#31019#0#HTML" expanded="true" />
+            <element signature="e#31439#31460#0#HTML" expanded="true" />
+            <element signature="e#31641#31662#0#HTML" expanded="true" />
+            <element signature="e#31839#31862#0#HTML" expanded="true" />
+            <element signature="e#32002#32023#0#HTML" expanded="true" />
+            <element signature="e#35614#35740#0#HTML" expanded="true" />
+            <element signature="e#36536#36662#0#HTML" expanded="true" />
+            <element signature="e#36751#36772#0#HTML" expanded="true" />
+            <element signature="e#36947#36968#0#HTML" expanded="true" />
+            <element signature="e#37018#37039#0#HTML" expanded="true" />
+            <element signature="e#37288#37378#0#HTML" expanded="true" />
+            <element signature="e#37871#37913#0#HTML" expanded="true" />
+            <element signature="e#38301#38322#0#HTML" expanded="true" />
+            <element signature="e#47437#47461#0#HTML" expanded="true" />
+            <element signature="e#47692#47742#0#HTML" expanded="true" />
+            <marker date="1427094358000" expanded="true" signature="-1:-1" placeholder="ALTER TABLE ..." />
+            <marker date="1427094358000" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..." />
+            <marker date="1427094358000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427094358000" expanded="true" signature="-1:-1" placeholder="ALTER TABLE ..." />
+            <marker date="1427094358000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._wplc_tblname_chats&#10;        WHERE..." />
+            <marker date="1427094358000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427094358000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427094358000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427094358000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427094358000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427094358000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427094358000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427094358000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427094358000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427094358000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427094358000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427094358000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._wplc_tblname_chats&#10;        WHERE..." />
+            <marker date="1427094358000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427094358000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1427094358000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ngocshop/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.741936" vertical-offset="1809" max-vertical-offset="2684">
+          <caret line="103" column="14" selection-start-line="91" selection-start-column="12" selection-end-line="103" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ngocshop/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.967742" vertical-offset="0" max-vertical-offset="1012">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/ngocshop/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9497143" vertical-offset="951" max-vertical-offset="1980">
-          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.33251834" vertical-offset="1356" max-vertical-offset="2288">
+          <caret line="74" column="30" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
           <folding />
         </state>
       </provider>

@@ -24,41 +24,55 @@
                     </nav>
                 </div></div><div class="col-sm-3"><div id="sh_recent_products-2"  class="widget widget-info widget_sh_recent_products">
                     <header class="widget-heading">
-                        <h4><i class="flaticon-shield90"></i>Security</h4>
+                        <h4><i class="flaticon-shield90"></i>Thông Tin Dịch Vụ</h4>
                     </header>
 
 
 
-                    <ul class="list-2">
-                        <li><a href="http://demos.megawpthemes.com/perfume/product/beauty-treats-darling-diamond-lip-gloss-set-6/">Beauty Treats Darling Diamond Lip Gloss Set 6</a></li>
-                        <li><a href="http://demos.megawpthemes.com/perfume/product/beauty-treats-darling-diamond-lip-gloss-set-6-colors5/">Beauty Treats Darling Diamond for Women</a></li>
-                        <li><a href="http://demos.megawpthemes.com/perfume/product/beauty-treats-perfume-fragrances-for-women/">Beauty Treats Perfume fragrances for women</a></li>
-                    </ul>
+                    <?php
+                    $nav = array(
+                        'theme_location'  => 'bottom_col_1',
+                        'container'       => '',
+                        'container_class' => '',
+                        'container_id'    => '',
+                        'menu_class'      => 'list-2',
+                        'menu_id'         => 'menu-list-col1'
+                    );
+
+                    wp_nav_menu( $nav );
+                    ?>
 
                 </div></div><div class="col-sm-3"><div id="sh_recent_products-3"  class="widget widget-info widget_sh_recent_products">
                     <header class="widget-heading">
-                        <h4><i class="flaticon-shipping"></i>Shipping</h4>
+                        <h4><i class="flaticon-shipping"></i>Ngọc Shop</h4>
                     </header>
 
 
 
-                    <ul class="list-2">
-                        <li><a href="http://demos.megawpthemes.com/perfume/product/beauty-treats-darling-diamond-lip-gloss-set-6/">Beauty Treats Darling Diamond Lip Gloss Set 6</a></li>
-                        <li><a href="http://demos.megawpthemes.com/perfume/product/beauty-treats-darling-diamond-lip-gloss-set-6-colors5/">Beauty Treats Darling Diamond for Women</a></li>
-                        <li><a href="http://demos.megawpthemes.com/perfume/product/beauty-treats-perfume-fragrances-for-women/">Beauty Treats Perfume fragrances for women</a></li>
-                    </ul>
+                    <?php
+                    $nav = array(
+                        'theme_location'  => 'bottom_col_2',
+                        'container'       => '',
+                        'container_class' => '',
+                        'container_id'    => '',
+                        'menu_class'      => 'list-2',
+                        'menu_id'         => 'menu-list-col2'
+                    );
+
+                    wp_nav_menu( $nav );
+                    ?>
 
                 </div></div><div class="col-sm-3"><div id="sh_payment-2"  class="widget widget-info widget_sh_payment">
                     <header class="widget-heading">
                         <h4><i class="flaticon-creditcard21"></i>Tài khoản thanh toán</h4>
                     </header>
                     <ul class="list-cards">
-                        <li><a href="#"><img src="images/nganhang/vietcombank.jpg" height="30" alt=""></a></li>
-                        <li><a href="#"><img src="images/nganhang/bidv.jpg" height="30" alt=""></a></li>
-                        <li><a href="#"><img src="images/nganhang/eximbank.jpg" height="30" alt=""></a></li>
-                        <li><a href="#"><img src="images/nganhang/sacombank.jpg" height="30" alt=""></a></li>
-                        <li><a href="#"><img src="images/nganhang/techcombank.jpg" height="30" alt=""></a></li>
-                        <li><a href="#"><img src="images/nganhang/vietinbank.jpg" height="30" alt=""></a></li>
+                        <li><a><img src="images/nganhang/vietcombank.jpg" height="30" alt=""></a></li>
+                        <li><a><img src="images/nganhang/bidv.jpg" height="30" alt=""></a></li>
+                        <li><a><img src="images/nganhang/eximbank.jpg" height="30" alt=""></a></li>
+                        <li><a><img src="images/nganhang/sacombank.jpg" height="30" alt=""></a></li>
+                        <li><a><img src="images/nganhang/techcombank.jpg" height="30" alt=""></a></li>
+                        <li><a><img src="images/nganhang/vietinbank.jpg" height="30" alt=""></a></li>
                     </ul>
                 </div></div>			</div>
     </div>

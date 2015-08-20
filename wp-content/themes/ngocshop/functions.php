@@ -3,9 +3,11 @@
 function register_menu() {
 
 register_nav_menus(
-array(
-'menu_top' => __( 'Header - Menu', 'ngocshop' )
-) );
+    array(
+        'menu_top' => __( 'Header - Menu', 'ngocshop' ),
+        'bottom_col_1' => __( 'Bottom - Column 1', 'ngocshop' ),
+        'bottom_col_2' => __( 'Bottom - Column 2', 'ngocshop' )
+    ) );
 }
 add_action( 'init', 'register_menu' );
 
